@@ -9,7 +9,7 @@ def line (katz_deli)
   if katz_deli.size > 1
     current_line = "The line is currently:"
     katz_deli.each.with_index(1) do |name, index|
-        puts "#{index}#{name}".
+        puts "#{index}#{name}"
     else
     puts "The line is currently empty."
   end
